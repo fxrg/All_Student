@@ -1,0 +1,17 @@
+/* Styles for Blackboard All Students Selector Extension */
+
+.all-students-option {
+    background-color: #f0f8ff !important;
+    border-left: 3px solid #f8f9f8 !important;
+    cursor: pointer !important;
+}
+
+.all-students-option:hover {
+    background-color: #e3f2fd !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* أيقونة مميزة للطلاب */
+.all-students-option::before {
+    content: "👨‍🎓 ";
+}

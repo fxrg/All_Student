@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128">
+  <circle cx="64" cy="64" r="60" fill="#4CAF50"/>
+  <text x="64" y="75" text-anchor="middle" fill="white" font-size="40" font-family="Arial" font-weight="bold">S</text>
+  <circle cx="90" cy="40" r="15" fill="#2196F3"/>
+  <text x="90" y="46" text-anchor="middle" fill="white" font-size="18" font-family="Arial" font-weight="bold">All</text>
+</svg>

@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "Blackboard All Students Selector",
+  "version": "1.0",
+  "description": "إضافة خيار لاختيار جميع الطلاب في البلاك بورد",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": [
+        "*://*.blackboard.com/*",
+        "*://*.seu.edu.sa/*",
+        "*://lms.seu.edu.sa/*",
+        "*://*/*/ultra/*",
+        "*://*/*/webapps/*"
+      ],
+      "js": ["content.js"],
+      "css": ["styles.css"],
+      "run_at": "document_idle",
+      "all_frames": true
+    }
+  ],
+  "icons": {
+    "48": "icon.svg",
+    "128": "icon.svg"
+  }
+}
